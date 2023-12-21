@@ -26,6 +26,7 @@ export default {
     '@/plugins/axios',
     '@/plugins/axios-request',
     '@/plugins/router',
+    { src: '@/plugins/catch-errors', mode: 'client' },
   ],
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,

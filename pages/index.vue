@@ -1,16 +1,16 @@
 <template>
-  <div>
-    <Tutorial />
-  </div>
+    <div>
+        <Tutorial />
+    </div>
 </template>
 
 <script>
 import { getCookiesSession } from '~/lib/cookies'
 
 export default {
-  name: 'IndexPage',
-  asyncData(context) {},
-  mounted() {},
+    name: 'IndexPage',
+    asyncData(context) {},
+    mounted() {},
 }
 </script>
 

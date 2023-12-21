@@ -1,3 +1,3 @@
 export default {
-  articleList: '/article/list',
+    articleList: '/article/list',
 }

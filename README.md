@@ -1,7 +1,8 @@
 ## 版本
-* node: `v14.x`
-* npm: `v6.x`
-* nuxtjs: `v2.15.8`
+
+- node: `v14.x`
+- npm: `v6.x`
+- nuxtjs: `v2.15.8`
 
 ## 使用
 

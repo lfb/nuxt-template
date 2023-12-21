@@ -11,7 +11,6 @@
 export default {
   name: 'IndexPage',
   mounted() {
-    console.log('NUXT_APP_ENV->', process.env.NUXT_APP_ENV)
   },
 }
 </script>

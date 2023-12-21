@@ -1,4 +1,4 @@
-import apis from '~/request/index'
+import apis from '~/requests/index'
 export default (ctx, inject) => {
   const requests = {}
   for (const i in apis) {

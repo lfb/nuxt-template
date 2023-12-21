@@ -1,4 +1,4 @@
-import articleUrl from '~/request/url/article'
+import articleUrl from '~/requests/url/article'
 
 export default (axios) => ({
   // 获取文章列表

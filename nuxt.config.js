@@ -24,7 +24,7 @@ export default {
   plugins: [
     '@/plugins/tools-inject',
     '@/plugins/axios',
-    '@/plugins/axios-request',
+    '@/plugins/axios-requests',
     '@/plugins/router',
     { src: '@/plugins/catch-errors', mode: 'client' },
   ],

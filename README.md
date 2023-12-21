@@ -24,7 +24,7 @@ $ yarn generate
 ## $axios
 
 ```js
-// 在文件夹 ~/request/api 下，定义请求方法
+// 在文件夹 ~/requests/api 下，定义请求方法
 export default (axios) => ({
   // 获取文章列表
   // 使用：this.$requests.article.getArticleList({})

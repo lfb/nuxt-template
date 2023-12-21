@@ -21,7 +21,6 @@ $ yarn start
 $ yarn generate
 ```
 
-
 ## $axios
 
 ```js
@@ -39,11 +38,11 @@ export default (axios) => ({
 
 // 项目中在客户端实例使用
 this.$requests.article.getArticleList({
-  page: 1
+  page: 1,
 })
 
-// 项目中在 SSR context 使用 
+// 项目中在 SSR context 使用
 context.app.$requests.article.getArticleList({
-  page: 1
+  page: 1,
 })
 ```

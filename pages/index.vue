@@ -5,8 +5,11 @@
 </template>
 
 <script>
+import { getCookiesSession } from '~/lib/cookies'
+
 export default {
   name: 'IndexPage',
+  asyncData(context) {},
   mounted() {},
 }
 </script>

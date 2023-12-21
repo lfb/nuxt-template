@@ -37,7 +37,11 @@ export default {
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: ['@nuxtjs/axios'],
+  modules: [
+    '@nuxtjs/axios',
+    // https://www.npmjs.com/package/cookie-universal-nuxt
+    'cookie-universal-nuxt',
+  ],
   styleResources: {
     scss: [
       // 把全局样式放到这里，同时把css节点中引用的scss删除

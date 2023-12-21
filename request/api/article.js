@@ -2,6 +2,7 @@ import articleUrl from '~/request/url/article'
 
 export default (axios) => ({
   // 获取文章列表
+  // 使用：this.$requests.article.getArticleList({})
   getArticleList(params) {
     return axios
       .get(articleUrl.articleList, { params })
